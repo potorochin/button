@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Button-Pay {
+  
+  width:              150px;
+  height:             50px;
+  top:                50%;
+  left:               45%;
+  position:           absolute;
+  border:             3px solid rgb(0, 143, 0);
+  cursor:             pointer;
+  border-radius:      10px;
+  z-index:            1;
+  background-color: rgb(33, 172, 33);
+}
+
+.Button-Pay-Text {
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 5px;
+}
