@@ -12,7 +12,7 @@ class App extends React.Component{
 
   sendRequest = async function (payload, JWT, iframe){
     
-    let response = await fetch("https://localhost:8000/api/checkout", {
+    let response = await fetch("https://api.dev.paygokit.com/api/checkout", {
       method:"POST",
       body:JSON.stringify(payload),
       mode: 'cors',
